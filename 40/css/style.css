@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #3E5C9A;
+}
+.header::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    width: 65%;
+    margin: auto;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.login-area{
+    width: 70%;
+    float: left;
+    
+}
+.login-area form{
+    float: right;
+}

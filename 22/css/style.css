@@ -1,0 +1,22 @@
+.menu{
+    background: yellow;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li:hover{
+    background: blue;
+}
+ul li:hover a{
+    color: crimson;
+}
